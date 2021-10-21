@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header img {
+    width: 100%;  
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height: 100%;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    background: #FF9E1E;
+    width: 100%;
+    height: 6vh;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#menu a:hover{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+#sobre{ 
+	width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+#bloco1, #bloco2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bloco1{
+    margin-bottom: 5%;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: #CA8A37;
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem ;
+    text-align: justify;
+    line-height: 30px;
+    color: black; 
+}
+
+.card-txt{
+ 	background-color: #FF9D1D;
+    padding: 12px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.img-vovania{
+	width: 300px;	
+	height: 350px;
+	padding-top: 20px;	
+}
+
+#img1{
+    width: 450px;
+}
+/*  */
+#pro_enc{
+    display:flex;
+    width: 100%;
+    height: 400px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#pro, #enc{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+}
+
+#pro h2, #enc h2{
+    margin-bottom: -15vh;
+    cursor:default;
+}
+
+#pro a, #enc a{
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    color: #000;
+    width: 100%;
+    margin-top: -20%;
+}
+
+#pro:hover, #enc:hover{
+    background-color: #ffb5557c;
+} 
+
+#pro a:hover, #enc a:hover{
+    text-decoration: underline;
+} 
+
+#recomenda{
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    padding: 30px;
+}
+
+#cx{
+    display: flex;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#cm1, #cm2, #cm3{
+    display: flex;
+    width: 30%;
+    height: 300px; 
+    font-family: 'Josefin Sans', sans-serif;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    padding: 10px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+}
+
+#cxt{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8E0C2;
+    padding: 15px;
+}
+
+#est{
+    display: flex;
+    padding-bottom:10px ;
+    justify-content:space-around;
+}
+
+#est img{
+    width: 14%;
+    box-sizing: border-box;
+}
+
+#txt{
+    font-style: italic;
+}
+
+#txt p{
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+	height: 10vh;
+    margin-top: 50px;
+    background:#FDAE46 ;
+	font-weight: bold ;
+    border-top: 2px solid #DD7D00;
+}
+
+footer a{
+	text-decoration: none;
+	color: #000;
+}
+
+footer img{
+    width: 20px;
+}

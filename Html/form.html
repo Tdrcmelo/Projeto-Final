@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quitutes da Vó Vânia </title>
+    <link rel="stylesheet" type="text/css" href="../Css/estilo_form.css">
+</head>
+<body>
+    <header>
+        <img id="banner" src="../midias/banner.jpeg"> 
+    </header>
+    <nav id="menu">
+        <a href="../Html/index.html">Historia</a>
+        <a href="../Html/Produtos.html#recomenda">Produtos</a>
+        <a href="../Html/form.html#titulo">Encomendas</a>
+        <a href="../Html/index.html#recomenda">Recomendados</a>
+    </nav>
+    <h2 id="titulo">Encomendas</h2>
+    <section>
+        <form name="" method=""  action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome_completo" size="70" placeholder="Nome Completo" />                <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" size="70" placeholder="nome@email.com"/>
+            <label for="Produtos">Produto:</label>
+                <select id="produtos" name="produtos">
+                    <option value="">Selecione</option>  
+                    <option value="Enroladinho de queijo">Enroladinho de queijo</option> 
+                    <option value="Rocambole de Goiabada">Rocambole de Goiabada</option>   
+                    <option value="Biscoito de Queijo">Biscoito de Queijo</option>   
+                    <option value="Bolo de Nozes">Bolo de Nozes</option>  
+                    <option value="Esfirra de Carne">Esfirra de Carne</option>
+                    <option value="Torta de Frango">Torta de Frango</option>     
+                </select>
+            <div>
+                <label for="Quantidade">Quantidade:</label>
+                    <input id="Quantidade" type="number" name="Quantidade" min="1" max="10" step="1"placeholder="Somente números" />
+            </div>
+            <fieldset>
+                <legend>Forma Retirada:</legend>
+                <input id="dlv" type="radio" name="Forma Retirada" value="delivery" /> <label for="masc">Delivery</label></br>
+                <input id="rtl" type="radio" name="Forma Retirada" value="ret local" /> <label for="fem">Retirar no Local</label>
+            </fieldset>
+            <label for="msg">Mensagem:</label><br/>
+           <textarea id="msg" cols="54" rows="4">  </textarea>
+            <div id="botoes-form">
+                <input a class="a-botoes" type="submit" name="bnt-encomendar" value="ENCOMENDAR" />
+                <input a class="a-botoes" type="reset" name="btn-cancelar" value="CANCELAR" />
+            </div>
+        </form> 
+    </section>
+    <footer>
+       
+        <a href="https://www.instagram.com/quitutesdavovania/">  <img src="../midias/img8.png"> @quitutesdavovania </a>
+        <p> Desenvolvido por <a href="https://www.instagram.com/brenner_gomees ">Brenner Gomes,</a> 
+            <a href="https://www.instagram.com/juniorcruzjr/">Jadilson Junior,</a>
+            <a href="https://www.instagram.com/tdrcmelo/ ">Tatiana Dutra</a>- 2021 </p> 
+        <p><img src="../midias/whatsapp.png"> (61) - 98255-0986 </p>
+    </footer> 
+</body>
+</html>
